@@ -1,1 +1,2 @@
-echo $1
+echo secret: $1
+ps -eaf | grep test.sh
